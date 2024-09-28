@@ -3,15 +3,8 @@
 @tailwind utilities;
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --background: #2e2e2e;
+  --foreground: #ffffff;
 }
 
 body {
@@ -25,3 +18,19 @@ body {
     text-wrap: balance;
   }
 }
+
+/* input[type='date'] {
+  background-color: #5e5e5e;
+  color: white;
+  border: 1px solid #8c8c8c;
+  padding: 0.5rem;
+  border-radius: 0.375rem;
+  appearance: none;
+}
+
+input[type='date']::-webkit-calendar-picker-indicator {
+  background-color: transparent;
+  color: white;
+  filter: invert(100%);
+  cursor: pointer;
+} */
